@@ -1,0 +1,26 @@
+{
+  "name": "kakao-talk-vue",
+  "version": "1.0.0",
+  "description": "카카오톡 API를 사용한 Vue.js 웹 대화 애플리케이션",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "server": "node server.js"
+  },
+  "dependencies": {
+    "vue": "^3.3.4",
+    "vue-router": "^4.2.5",
+    "axios": "^1.6.0",
+    "pinia": "^2.1.7"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^4.4.0",
+    "vite": "^4.4.11",
+    "nodemon": "^3.0.1"
+  },
+  "keywords": ["kakao", "api", "chat", "vue", "web"],
+  "author": "",
+  "license": "MIT"
+}
